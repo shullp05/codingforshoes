@@ -1,0 +1,162 @@
+{
+  "schema_version": "v1",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "analyze",
+        "description": "Analyze code or system architecture",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "arguments": {"type": "string", "description": "Command flags and arguments"}
+          }
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "scan",
+        "description": "Perform security and validation scans",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "explain",
+        "description": "Explain code or concepts in varying depth",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "review",
+        "description": "Perform AI powered code review and quality analysis",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "build",
+        "description": "Build project or feature using templates",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "deploy",
+        "description": "Deploy application with rollback support",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "migrate",
+        "description": "Run database or code migrations",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "task",
+        "description": "Manage complex feature tasks across sessions",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "load",
+        "description": "Load project context and configuration",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "cleanup",
+        "description": "Perform project maintenance and cleanup",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "test",
+        "description": "Run tests with coverage options",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "troubleshoot",
+        "description": "Debug and resolve issues using root cause analysis",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "improve",
+        "description": "Enhance and optimize existing code",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "design",
+        "description": "Create or refine system architecture",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "document",
+        "description": "Generate documentation and explanations",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "estimate",
+        "description": "Provide project or task estimates",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "dev_setup",
+        "description": "Prepare development environment with tooling",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "git",
+        "description": "Manage git workflow operations",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "spawn",
+        "description": "Spawn parallel specialized agents",
+        "parameters": {"type": "object", "properties": {"arguments": {"type": "string"}}}
+      }
+    }
+  ]
+}
