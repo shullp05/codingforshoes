@@ -1,0 +1,5 @@
+{
+  "contextFileName": "GEMINI.md",
+  "toolDiscoveryCommand": "bin/get_superclaude_tools.sh",
+  "toolCallCommand": "bin/run_superclaude_tool.sh"
+}
